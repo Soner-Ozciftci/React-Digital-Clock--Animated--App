@@ -10,6 +10,9 @@ function App() {
     let time = new Date().toLocaleTimeString();
     setCurrentTime(time);
   }
+
+  setInterval(Time, 1000);
+
   return (
     <div className="App">
       <h1>{currentTime}</h1>
